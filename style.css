@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1200px;
+    height: 100vh;
+}
+
+.nav {
+    background-color: silver;
+    height: 5%;
+    width: 100%;
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.search {
+    width: 20rem;
+}
+.nav-btn {
+    background-color: dodgerblue;
+    color: whitesmoke;
+    border: 2px solid black;
+    border-radius: .25em;
+    width: 7.5em;
+    height: 2.25em;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.left {
+    flex: 3; /* Takes up 3/4 of the available space */
+}
+
+.right {
+    flex: 1; /* Takes up 1/4 of the available space */
+}
+
+.left-column,
+.right-column {
+    border: 2px solid #000;
+    padding: 10px;
+    margin: .5em;
+}
+
+.left-column {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1em;
+}
+
+.ninja-btn, .def-btn {
+    margin-top: 1.5em;
+    border: 2px solid black;
+}
+.def-btn {
+    background-color: olivedrab;
+    border-radius: .2em;
+    width: 15em;
+}
+
+.ninja-btn {
+    background-color: #ffc300;
+    border-radius: .2em;
+    width: 7.5em;
+}
+
+.definition {
+    display: flex;
+    align-items: center;
+}
